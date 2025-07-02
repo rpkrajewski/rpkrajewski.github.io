@@ -1,0 +1,76 @@
+# git attributes for content (not policy, etc.)
+# See:
+#   http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
+#   https://help.github.com/articles/dealing-with-line-endings/
+# Diff helpers are also OK here if they're generally available.
+
+# Binary documents
+*.gnumeric binary
+*.pdf binary
+*.xls binary
+
+# Code binaries.
+*.bin binary
+*.lib binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.so binary
+*.dylib binary
+
+# Packages
+*.bz2 binary
+*.gz binary
+*.tar binary
+*.tgz binary
+*.xz binary
+*.zip binary
+
+# Java binaries
+*.class binary
+*.jar binary
+*.ear binary
+*.war binary
+
+# Microsoft Visual Studio project and languages
+*.cs text eol=crlf
+*.vb text eol=crlf
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.vcproj text eol=crlf
+*.vcxproj text eol=crlf
+
+# Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+
+# Images
+*.bmp binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.icns binary
+
+# Unix build
+Makefile text eol=lf
+makefile text eol=lf
+setup text eol=lf
+*.ac text eol=lf
+*.mk text eol=lf
+
+# Shell
+*.bash text eol=lf
+*.csh text eol=lf
+*.sh text eol=lf
+*.ksh text eol=lf
+
+# Windows Rich Text Format
+*.rtf text eol=crlf
+
+# Sandcastle Help File Builder
+*.shfbproj text eol=crlf
