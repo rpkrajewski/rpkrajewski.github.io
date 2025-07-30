@@ -1,0 +1,13 @@
+# Me me me
+[ananke.social.follow]
+new_window_icon = false
+networks = [
+  "github",
+  "linkedin"
+]
+
+[ananke.social.github]
+username = "rpkrajewski"
+
+[ananke.social.linkedin]
+username = "rpkrajewski"
