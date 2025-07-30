@@ -32,9 +32,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.9
+      HUGO_VERSION: 0.148.2
       HUGO_ENVIRONMENT: production
-      # THIS UTC NOT LA.
+      # THIS IS UTC NOT LA.
       TZ: UTC
     steps:
       - name: Install Hugo CLI
