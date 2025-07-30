@@ -1,6 +1,6 @@
 +++
-date = '2025-07-01T11:07:10-04:00'
-draft = true
+date = '2025-07-29T11:07:10-04:00'
+draft = false
 title = 'Post Nil'
 +++
 
